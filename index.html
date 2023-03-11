@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page de Developer</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/002f4cf7f8.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://kit.fontawesome.com/002f4cf7f8.css" crossorigin="anonymous">
+  <link rel="icon" href="favicon.png" type="image/png" />
+</head>
+<body>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://wa.me/5532984132330" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+      z-index:1000;" target="_blank">
+    <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+    </a>
+    <header>
+        <div class="container">
+            <nav class="logo2">
+                <a href="#"><img src="favicon.png" alt="Logo"></a> 
+                <a href="#">Início</a>
+                <a href="#">Portfólio</a>
+                <a href="#">Sobre</a>
+                <a href="#">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+          <div class="tagline2">
+            <h1>Conheça-me</h1>
+            <div class="terminal" id="terminal">
+              <img src="https://cdn.discordapp.com/attachments/1061697999153143928/1083385588348113030/terminal.png"  id="img2"></img><span> Visual Studio code</span>
+                <hr>
+                <div class="yuricentro">
+                  > Olá, prazer em conhecê-lo!<br/>
+                  > Me chamo <b>Yuri Braga</b>.<br/><br/>
+                  > Sou Desenvolvedor Fullstack, trabalho com HTML/CSS, TypeScript, MySQL, PHP, JavaScript, Kotlin e Flutter.<br/>
+                  > Trabalho na área desde 2019, no entanto minha história com programação é longa e vem desde quando era criança.<br/>
+                  > Eu tentei ser normal, mas não gostei.<br/><br/>
+                  > EXIT
+                </div>
+            </div>
+        </div>
+    </main>
+  <div class="contact-form">
+    <h2>Entre em contato!</h2>
+    <form action="processa_formulario.php" method="POST">
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Mensagem:</label>
+      <textarea id="message" name="message" required></textarea>
+      <div class="contact-envio">
+        <input type="submit" name="Enviar" value="Enviar" />
+        <input type="reset" name="Limpar" value="Limpar" />
+    </div>
+    </form>
+  </div>
+  <footer>
+    <div class="footer-container">
+      <div class="logo">
+        <img src="favicon.png" alt="Logo">
+      </div>
+      <div class="menu">
+        <p>Desenvolvido por <a href="https://github.com/yuribraga17">Yuri Braga</a></p>
+        <ul>
+          <li><a href="index.html">Sobre</a></li>
+          <li><a href="https://github.com/yuribraga17">Portfólio</a></li>
+        </ul>
+      </div>
+      <div class="social-icons">
+        <a href="https://github.com/yuribraga17"><i class="fa-brands fa-github"></i></a> <!-- Github -->
+        <a href="https://twitter.com/braga_balafina"><i class="fa-brands fa-twitter"></i></a> <!-- Twitter -->
+        <a href="https://instagram.com/yuri.braga17"><i class="fa-brands fa-instagram"></i></a> <!-- Instagram -->
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
